@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: auto;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+.navbar-brand h1{
+  font-size: 80px;
+  color: aliceblue;
+}
+.navbar-links button{
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    padding: 18px 18px;
+    background-color: red;
+    outline: none;
+    border:none;
+    font-family:"Poppins",san-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
